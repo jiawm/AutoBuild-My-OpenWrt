@@ -21,7 +21,7 @@ sed -i 's#/bin/ash#/bin/bash#g' package/base-files/files/etc/passwd
 
 
 #Modify Default Password
-sed -i 's#root::0:0:99999:7:::#root:$1$fe9OTETj$lEJwiQW4hDxi/GNj4JUlC1:18679:0:99999:7:::#g' package/base-files/files/etc/shadow
+#sed -i 's#root::0:0:99999:7:::#root:$1$fe9OTETj$lEJwiQW4hDxi/GNj4JUlC1:18679:0:99999:7:::#g' package/base-files/files/etc/shadow
 
 
 
